@@ -48,7 +48,7 @@ button:hover{
 .head{
     display: flex;
     gap: 2rem;
-    padding: 0 2rem;
+    align-items: start;
 }
 .icon-minus{
     display: none;
@@ -60,7 +60,7 @@ button:hover{
     border-bottom: 1.5px solid  hsl(275, 100%, 97%);
     overflow: hidden;
     max-height: 0;
-    transition: max-height 400ms ease-in-out;
+    transition: max-height 400ms ease;
     color: hsl(292, 16%, 49%);
 }
 
@@ -70,5 +70,8 @@ button:hover{
     }
     .container{
         max-width: 80%;
+    }
+    .content-cont{
+        padding: 1rem 0.5rem ;
     }
 }
